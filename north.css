@@ -1,0 +1,28 @@
+
+    body {
+    	background: #c4d6f4;
+		color: rgb(51, 51, 51);
+		font-family: Helvetica, sans-serif;
+
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+    }
+
+	@keyframes tossing {
+	  0% {
+	    transform: rotate(-4deg); 
+	  }
+	  50% {
+	    transform: rotate(4deg);
+	  }
+	  100% {
+	    transform: rotate(-4deg); 
+	  }           
+	}
+
+    #ship {
+    	animation-name: tossing;
+		animation-duration: 2.5s; 
+		animation-iteration-count: infinite;
+    }
