@@ -30,7 +30,11 @@
   }
 
   #ship {
+    display: block;
     margin-top: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+
     animation-name: tossing;
     animation-duration: 2.5s; 
     animation-iteration-count: infinite;
