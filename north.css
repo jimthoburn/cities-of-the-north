@@ -12,6 +12,11 @@
     margin-bottom: 6em;
   }
 
+  figure {
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+  }
+
   @keyframes tossing {
     0% {
       transform: rotate(-4deg); 
@@ -25,6 +30,7 @@
   }
 
   #ship {
+    margin-top: 2.4em;
     animation-name: tossing;
     animation-duration: 2.5s; 
     animation-iteration-count: infinite;
